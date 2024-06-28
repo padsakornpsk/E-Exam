@@ -1,4 +1,5 @@
 <?php
+
 require("../E-Exam/config/config.php");
 
 // Retrieve search keyword from GET parameter

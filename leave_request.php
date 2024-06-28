@@ -13,6 +13,7 @@
 <body>
     <?php
     include "menu.php"
+    
     ?>
     <form action="leaveSave.php" method="post">
         <div class="col">

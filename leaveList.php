@@ -1,4 +1,5 @@
 <?php
+
 require("../E-Exam/config/config.php");
 
 $selectLeaveRequestSQL = "SELECT * FROM leaverequest";

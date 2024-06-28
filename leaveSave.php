@@ -1,6 +1,7 @@
 <?php
 require("../E-Exam/config/config.php");
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fullname = $_POST['fullname'];
     $position = $_POST['position'];

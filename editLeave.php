@@ -1,4 +1,5 @@
     <?php
+    
     require("../E-Exam/config/config.php");
 
     // Check if bookingID is set and valid
@@ -38,6 +39,7 @@
     <body>
         <?php
         include "menu.php"
+
         ?>
         <div class="container">
             <h2 class="mt-4">แก้ไขข้อมูลการลา</h2>
