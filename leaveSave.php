@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // ตรวจสอบเงื่อนไขว่าไม่อนุญาติให้บันทึกวันลาย้อนหลัง
     $today = new DateTime();
-    if ($date_leave < $today || $date_leave_to < $today) {
+    if ($date_leave <= $today || $date_leave_to <= $today) {
         echo "<script>alert('ไม่อนุญาติให้บันทึกวันลาย้อนหลัง');window.location.href = 'leave_request.php';</script>";
         exit();
     }
