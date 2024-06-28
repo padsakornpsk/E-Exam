@@ -16,11 +16,3 @@ if (!$conn) {
     @mysqli_query($conn, 'SET NAMES UTF8');
 }
 ?>
-<?php
-/**$strSQL='SELECT * FROM customer';
-    $query = @mysqli_query($conn,$strSQL);  
-    while($resultObj = @mysqli_fetch_array($query,MYSQLI_ASSOC)){
-        print_r($resultObj);
-    }
- */
-?>

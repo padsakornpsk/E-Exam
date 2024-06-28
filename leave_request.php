@@ -41,7 +41,7 @@
             เบอร์โทรศัพท์
         </div>
         <div class="col">
-            <input id="tel" name="tel" type="text" required>
+            <input id="tel" name="tel" type="text" maxlength="10" required>
         </div>
 
         <div class="col">
@@ -89,11 +89,11 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" style="display:none">
             สถานะ
         </div>
         <div class="col">
-            <select Name="status" required>
+            <select Name="status" required style="display: none;">
                 <option value="0" selected>รอพิจารณา</option>
                 <option value="1">อนุมัติ</option>
                 <option value="2">ไม่อนุมัติ</option>
